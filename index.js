@@ -119,7 +119,7 @@ function buildRpm(buildRoot, specFile, rpmDest, execOpts, cb) {
   var cmd = [
     'rpmbuild',
     '-bb',
-    '-vv',
+    '-v',
     '--buildroot',
     buildRoot,
     specFile
